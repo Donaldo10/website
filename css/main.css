@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(black, white);
+}
+.center {
+  position: relative;
+  padding: 50px 50px;
+  background: linear-gradient(white, black);
+}
+.center h1 {
+  font-size: 1em;
+  border-left: 3px solid dodgerblue;
+  padding: 10px;
+  color: #000;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.center .inputbox {
+  position: relative;
+  width: 175px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.center .inputbox [type="button"] {
+  width: 50%;
+  background: black;
+  color: #fff;
+  border: #fff;
+}
+

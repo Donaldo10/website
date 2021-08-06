@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head> 
+    <title>Login</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="center">
+        <center><img src="imagen/login.png" alt="" /></center>
+        <form name="form" method="POST">
+        <div class="inputbox">    
+        <input type="text" name="nombre" placeholder="Usuario">
+    </div>
+         <div class="inputbox">
+        <input type="password" name="pass" placeholder="Password">
+        </div>
+        <div class="inputbox">
+        <input type="button" value="Ingresar" onclick="usrpas()">
+        </div>
+    </form> 
+    <script>
+    function usrpas(){
+    if (document.form.nombre.value=="donaldo" && document.form.pass.value=="01234"){window.location="lista.html"}
+    else {alert("Credenciales incorrectas")}
+    }
+    document.oncontextmenu=new Function("return false");
+    </script>   
+</body>
+</html>
